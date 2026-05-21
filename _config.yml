@@ -1,0 +1,138 @@
+title: "Design Patterns for Python, ML & AI — The Complete Guide"
+description: "From Principles to Production: GoF classics, Pythonic idioms, PyTorch patterns, MLOps architecture, and agentic AI design patterns."
+baseurl: "/design-patterns"
+url: "https://karam-nus.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+include:
+  - README.md
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Foundations"
+    url: ""
+  - title: "01 — Introduction"
+    url: "/01_introduction"
+  - title: "02 — SOLID Principles"
+    url: "/02_solid_principles"
+  - title: "03 — Python Idioms & Protocols"
+    url: "/03_python_idioms"
+  - title: "Creational Patterns"
+    url: ""
+  - title: "04 — Factory & Abstract Factory"
+    url: "/04_factory"
+  - title: "05 — Builder Pattern"
+    url: "/05_builder"
+  - title: "06 — Singleton, Borg & Registry"
+    url: "/06_registry"
+  - title: "07 — Prototype & Object Pool"
+    url: "/07_prototype"
+  - title: "08 — Dependency Injection"
+    url: "/08_dependency_injection"
+  - title: "Structural Patterns"
+    url: ""
+  - title: "09 — Composite & Module Hierarchy"
+    url: "/09_composite"
+  - title: "10 — Adapter & Bridge"
+    url: "/10_adapter_bridge"
+  - title: "11 — Decorator & Wrapper"
+    url: "/11_decorator"
+  - title: "12 — Facade & Service Layer"
+    url: "/12_facade"
+  - title: "13 — Proxy & Lazy Loading"
+    url: "/13_proxy"
+  - title: "14 — Flyweight & Parameter Sharing"
+    url: "/14_flyweight"
+  - title: "Behavioral Patterns"
+    url: ""
+  - title: "15 — Strategy Pattern"
+    url: "/15_strategy"
+  - title: "16 — Observer & Callbacks"
+    url: "/16_observer"
+  - title: "17 — Template Method"
+    url: "/17_template_method"
+  - title: "18 — Chain of Responsibility"
+    url: "/18_chain"
+  - title: "19 — Command & Job Scheduler"
+    url: "/19_command"
+  - title: "20 — State Machine & Lifecycle"
+    url: "/20_state"
+  - title: "21 — Iterator & Lazy Datasets"
+    url: "/21_iterator"
+  - title: "22 — Visitor & Graph Traversal"
+    url: "/22_visitor"
+  - title: "PyTorch Patterns"
+    url: ""
+  - title: "23 — nn.Module Composition"
+    url: "/23_module_composition"
+  - title: "24 — Hook Pattern"
+    url: "/24_hooks"
+  - title: "25 — Custom Training Components"
+    url: "/25_custom_components"
+  - title: "26 — Checkpoint & Serialization"
+    url: "/26_checkpoint"
+  - title: "27 — Distributed & Parallel"
+    url: "/27_distributed"
+  - title: "MLOps Patterns"
+    url: ""
+  - title: "28 — Data Pipeline & DAG"
+    url: "/28_data_pipeline"
+  - title: "29 — Configuration Management"
+    url: "/29_configuration"
+  - title: "30 — Experiment Tracking"
+    url: "/30_experiment_tracking"
+  - title: "31 — Model Serving Patterns"
+    url: "/31_serving"
+  - title: "32 — Resilience Patterns"
+    url: "/32_resilience"
+  - title: "Agentic & LLM Patterns"
+    url: ""
+  - title: "33 — ReAct & Chain-of-Thought"
+    url: "/33_react"
+  - title: "34 — Router & Dispatcher"
+    url: "/34_router"
+  - title: "35 — Orchestrator-Worker"
+    url: "/35_orchestrator_worker"
+  - title: "36 — Evaluator-Optimizer"
+    url: "/36_evaluator_optimizer"
+  - title: "37 — RAG & Retrieval"
+    url: "/37_rag"
+  - title: "38 — Multi-Agent Communication"
+    url: "/38_multi_agent"
+  - title: "39 — Memory & Context"
+    url: "/39_memory"
+  - title: "Appendices"
+    url: ""
+  - title: "A — Pattern Quick Reference"
+    url: "/appendix_a_quick_reference"
+  - title: "B — Anti-Patterns in ML"
+    url: "/appendix_b_antipatterns"
+  - title: "C — Glossary"
+    url: "/appendix_c_glossary"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
